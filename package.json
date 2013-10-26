@@ -1,0 +1,27 @@
+{
+   "name":"sleep-schedule",
+   "description":"Optimize your sleep",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/sleep-schedule",
+   "repository":"git://github.com/wearefractal/sleep-schedule.git",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main":"./index.js",
+   "tags":["sleep","rem","cycles"],
+
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*"
+   },
+   "scripts":{
+      "test":"mocha"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/sleep-schedule/raw/master/LICENSE"
+      }
+   ]
+}
