@@ -65,7 +65,7 @@ Returns a Date to wake up at
 - I'm going to sleep at (date)
 - I want to sleep max (cycles) sleep cycles
 
-Returns a list of Dates to wake up at
+Returns a list of Dates to start falling asleep at
 
 - Date defaults to now-(cycles) sleep cycles
 - Cycles defaults to 5
