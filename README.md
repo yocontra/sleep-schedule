@@ -37,44 +37,44 @@ var sleepTime = sleepy.sleepTime();
 
 ### Defaults
 
-Cycle time = 90 minutes
-Time to fall asleep = 14 minutes
+- Cycle time = 90 minutes
+- Time to fall asleep = 14 minutes
 
 ### .wakeTimes(date, cycles)
 
-I'm going to sleep at (date)
-I want to sleep max (cycles) sleep cycles
-Returns an array of Dates to wake up at
+- I'm going to sleep at (date)
+- I want to sleep max (cycles) sleep cycles
+- Returns an array of Dates to wake up at
 
-Date defaults to now
-Cycles defaults to 5
+- Date defaults to now
+- Cycles defaults to 5
 
 ### .wakeTime(date, cycles)
 
-I'm going to sleep at (date)
-I want to sleep exactly (cycles) sleep cycles
-Returns a Date to wake up at
+- I'm going to sleep at (date)
+- I want to sleep exactly (cycles) sleep cycles
+- Returns a Date to wake up at
 
-Date defaults to now
-Cycles defaults to 5
+- Date defaults to now
+- Cycles defaults to 5
 
 ### .sleepTimes(date, cycles)
 
-I'm going to sleep at (date)
-I want to sleep max (cycles) sleep cycles
-Returns a list of Dates to wake up at
+- I'm going to sleep at (date)
+- I want to sleep max (cycles) sleep cycles
+- Returns a list of Dates to wake up at
 
-Date defaults to now-(cycles) sleep cycles
-Cycles defaults to 5
+- Date defaults to now-(cycles) sleep cycles
+- Cycles defaults to 5
 
 ### .sleepTime(date, cycles)
 
-I'm waking up at (date)
-I want to sleep exactly (cycles) sleep cycles
-Returns a Date to start falling asleep at
+- I'm waking up at (date)
+- I want to sleep exactly (cycles) sleep cycles
+- Returns a Date to start falling asleep at
 
-Date defaults to now-(cycles) sleep cycles
-Cycles defaults to 5
+- Date defaults to now-(cycles) sleep cycles
+- Cycles defaults to 5
 
 ## LICENSE
 
